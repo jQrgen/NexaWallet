@@ -4,9 +4,9 @@ import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
 import android.util.Log
-import co.touchlab.kampkit.AppInfo
-import co.touchlab.kampkit.initKoin
-import co.touchlab.kampkit.models.BreedViewModel
+import info.bitcoinunlimited.nexawallet.AppInfo
+import info.bitcoinunlimited.nexawallet.initKoin
+import info.bitcoinunlimited.nexawallet.models.BreedViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.core.parameter.parametersOf
 import org.koin.dsl.module

@@ -5,9 +5,9 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import co.touchlab.kampkit.android.ui.MainScreen
 import co.touchlab.kampkit.android.ui.theme.KaMPKitTheme
-import co.touchlab.kampkit.injectLogger
-import co.touchlab.kampkit.models.BreedViewModel
 import co.touchlab.kermit.Logger
+import info.bitcoinunlimited.nexawallet.injectLogger
+import info.bitcoinunlimited.nexawallet.models.BreedViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import org.koin.core.component.KoinComponent
 
