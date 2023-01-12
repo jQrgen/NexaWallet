@@ -1,4 +1,4 @@
-package co.touchlab.kampkit.android.ui
+package info.bitcoinunlimited.nexawallet.android
 
 import android.annotation.SuppressLint
 import androidx.compose.animation.Crossfade
@@ -32,7 +32,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.flowWithLifecycle
-import co.touchlab.kampkit.android.R
 import co.touchlab.kampkit.db.Breed
 import co.touchlab.kermit.Logger
 import com.google.accompanist.swiperefresh.SwipeRefresh

@@ -1,11 +1,10 @@
-package co.touchlab.kampkit.android
+package info.bitcoinunlimited.nexawallet.android
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import co.touchlab.kampkit.android.ui.MainScreen
-import co.touchlab.kampkit.android.ui.theme.KaMPKitTheme
 import co.touchlab.kermit.Logger
+import info.bitcoinunlimited.nexawallet.android.theme.KaMPKitTheme
 import info.bitcoinunlimited.nexawallet.injectLogger
 import info.bitcoinunlimited.nexawallet.models.BreedViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
