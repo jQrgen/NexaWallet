@@ -34,11 +34,11 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.flowWithLifecycle
 import co.touchlab.kampkit.android.R
 import co.touchlab.kampkit.db.Breed
-import co.touchlab.kampkit.models.BreedViewModel
-import co.touchlab.kampkit.models.BreedViewState
 import co.touchlab.kermit.Logger
 import com.google.accompanist.swiperefresh.SwipeRefresh
 import com.google.accompanist.swiperefresh.rememberSwipeRefreshState
+import info.bitcoinunlimited.nexawallet.models.BreedViewModel
+import info.bitcoinunlimited.nexawallet.models.BreedViewState
 
 @Composable
 fun MainScreen(
