@@ -1,4 +1,4 @@
-package co.touchlab.kampkit.android
+package info.bitcoinunlimited.nexawallet.android
 
 import android.app.Application
 import android.content.Context
@@ -20,7 +20,7 @@ class MainApp : Application() {
                 single<Context> { this@MainApp }
                 viewModel { BreedViewModel(get(), get { parametersOf("BreedViewModel") }) }
                 single<SharedPreferences> {
-                    get<Context>().getSharedPreferences("KAMPSTARTER_SETTINGS", Context.MODE_PRIVATE)
+                    get<Context>().getSharedPreferences("KAMPSTARTER_SETTINGS", MODE_PRIVATE)
                 }
                 single<AppInfo> { AndroidAppInfo }
                 single {
