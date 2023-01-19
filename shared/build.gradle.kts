@@ -25,6 +25,13 @@ android {
         warningsAsErrors = true
         abortOnError = true
     }
+    // namespace = "info.bitcoinunlimited.nexawallet"
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+
+    }
 }
 
 version = "1.2"
@@ -52,6 +59,7 @@ kotlin {
                 implementation(libs.touchlab.stately)
                 implementation(libs.multiplatformSettings.common)
                 implementation(libs.kotlinx.dateTime)
+                implementation("org.nexa.libnexakotlin:libnexakotlin:0.1.1")
                 api(libs.touchlab.kermit)
             }
         }

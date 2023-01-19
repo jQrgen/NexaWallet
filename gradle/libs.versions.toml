@@ -1,13 +1,13 @@
 [versions]
-kotlin = "1.7.20"
+kotlin = "1.8.0"
 
 ## SDK Versions
-minSdk = "21"
+minSdk = "24"
 targetSdk = "33"
 compileSdk = "33"
 
 # Dependencies
-android-gradle-plugin = "7.2.2" # Don't bump to 7.3.x until Intellij supports it (unless you're ok with only Android Studio)
+android-gradle-plugin = "7.4.0"
 ktlint-gradle = "11.0.0"
 gradle-versions = "0.42.0"
 

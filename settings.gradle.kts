@@ -2,6 +2,7 @@ pluginManagement {
     repositories {
         google()
         mavenCentral()
+        mavenLocal()
         gradlePluginPortal()
     }
 }
@@ -9,4 +10,4 @@ pluginManagement {
 include(":app", ":shared")
 rootProject.name = "KaMPKit"
 
-enableFeaturePreview("VERSION_CATALOGS")
+// enableFeaturePreview("VERSION_CATALOGS")
